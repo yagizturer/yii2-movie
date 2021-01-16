@@ -1,0 +1,46 @@
+{
+    "name": "yagiztr/yii2-movie",
+    "description": "Yii2 Movie Module",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "yagiztr",
+        "email": "yagizturer@gmail.com",
+        "role": "Developer"
+      },
+      {
+        "name": "huseyinyilmaz",
+        "email": "ylmzhsyn98@gmail.com",
+        "role": "Developer"
+      },
+      {
+        "name": "xedeer",
+        "email": "akinozbay1999@gmail.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "php": ">=7.0",
+      "yiisoft/yii2": "~2.0.13"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "8.*.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "yagiztr\\movie\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "yagiztr\\movie\\tests\\": "tests"
+      }
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+      }
+    ]
+  }
