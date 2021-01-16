@@ -30,7 +30,7 @@ Tüm modüllerin düzgün kurulması için, advanced projesi dizininde şu kodla
     composer require huseyinyilmaz/yii2-comment
     composer require xedeer/yii2-watchlist
 
-Böylece tüm modüller kurulmuş olur
+Böylece tüm modüller kurulmuş olur.
 
 -----------------
 
@@ -58,7 +58,7 @@ Bundan sonra modüller uygulamaya tanıtılmış olur.
 
 -----------------
 
-Eğer ki proje URL biçimlendirilmesinde bir düzenleme yapılmadıysa http://alandi/frontend/web/index.php?r=movie adresine giderek film listesi görüntülenebilir. Burada kategoriye göre film listeleme, isme veya yapın yılına göre film arama gibi özellikler bulunmaktadır. Bu açılan sayfadan yeni bir film girdisi oluşturulabileceği gibi her satırın sonunda bulunan işarete tıklanarak filmin sayfasına gidilebilir. Film sayfasında filmin konusu, yapım yılı, ismi, posteri gibi bilgiler görüntülenebileceği gibi, diğer iki modül de kurulduysa film listesi ve yorum özellikleri de kontrol edilebilir. Eğer ki bu iki modülden biri kurulmadıysa, ilgili alanda durumu açıklayan bir uyarı görünmektedir. Ayrıca filmler düzenlenebilir ve kategori gibi bilgileri yeniden belirlenebilir.
+Eğer ki proje URL biçimlendirilmesinde bir düzenleme yapılmadıysa http://alanadi/frontend/web/index.php?r=movie adresine giderek film listesi görüntülenebilir. Burada kategoriye göre film listeleme, isme veya yapın yılına göre film arama gibi özellikler bulunmaktadır. Bu açılan sayfadan yeni bir film girdisi oluşturulabileceği gibi her satırın sonunda bulunan işarete tıklanarak filmin sayfasına gidilebilir. Film sayfasında filmin konusu, yapım yılı, ismi, posteri gibi bilgiler görüntülenebileceği gibi, diğer iki modül de kurulduysa film listesi ve yorum özellikleri de kontrol edilebilir. Eğer ki bu iki modülden biri kurulmadıysa, ilgili alanda durumu açıklayan bir uyarı görünmektedir. Ayrıca filmler düzenlenebilir ve kategori gibi bilgileri yeniden belirlenebilir.
 
 -----------------
 
@@ -66,7 +66,7 @@ Yorum modülü ayrı sayfalarda kullanılmak üzere tasarlanmadı. İşlevleri y
 
 -----------------
 
-İzleme listesi modülü ise yalnızca giriş yapmış kullanıcıların faydalanabileceği bir özelliktir. Yine URL biçimlendirmesinde bir düzenleme yapılmadıysa, siteye giriş yaptıktan sonra http://alandi/frontend/web/index.php?r=watchlist adresine giderek daha önceden oluşturduğunuz film listeleri görüntülenebilir. Yalnızca o anda giriş yapmış olan kullanıcının listeleri görünür. Bu sayfadan daha önce oluşturduğunuz listelerin sayfasına gidebileceğiniz gibi yukarıdaki butona tıklayarak yeni bir film listesi de oluşturabilirsiniz. Herhangi bir listenin sayfasına girildiğinde o listeye eklenmiş filmler listelenir ve doğrudan film adına tıklanarak filmin sayfasına erişilebilir. Ayrıca film sayfalarında o anda görüntülenen filmi listeye ekleme ve listeden çıkarma özelliği bulunur. Yine burada yalnızca kendi listeleriniz üstünde işlem yapabilirsiniz. Daha önce filmi eklediğiniz listeler ayrı bir alanda, eklemediğiniz listeler ise ayrı bir alanda görünür. Çoklu seçim ile listelere filmi ekleme veya listeden çıkarma işlemleri yapılabilir.
+İzleme listesi modülü ise yalnızca giriş yapmış kullanıcıların faydalanabileceği bir özelliktir. Yine URL biçimlendirmesinde bir düzenleme yapılmadıysa, siteye giriş yaptıktan sonra http://alanadi/frontend/web/index.php?r=watchlist adresine giderek daha önceden oluşturduğunuz film listeleri görüntülenebilir. Yalnızca o anda giriş yapmış olan kullanıcının listeleri görünür. Bu sayfadan daha önce oluşturduğunuz listelerin sayfasına gidebileceğiniz gibi yukarıdaki butona tıklayarak yeni bir film listesi de oluşturabilirsiniz. Herhangi bir listenin sayfasına girildiğinde o listeye eklenmiş filmler listelenir ve doğrudan film adına tıklanarak filmin sayfasına erişilebilir. Ayrıca film sayfalarında o anda görüntülenen filmi listeye ekleme ve listeden çıkarma özelliği bulunur. Yine burada yalnızca kendi listeleriniz üstünde işlem yapabilirsiniz. Daha önce filmi eklediğiniz listeler ayrı bir alanda, eklemediğiniz listeler ise ayrı bir alanda görünür. Çoklu seçim ile listelere filmi ekleme veya listeden çıkarma işlemleri yapılabilir.
 
 
 
