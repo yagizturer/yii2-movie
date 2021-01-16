@@ -26,9 +26,9 @@ Tüm modüllerin düzgün kurulması için, advanced projesi dizininde şu kodla
 
     php requirements.php
     php init
-    composer require yagiztr/yii2-movie
-    composer require huseyinyilmaz/yii2-comment
-    composer require xedeer/yii2-watchlist
+    composer require yagiztr/yii2-movie "dev-main"
+    composer require huseyinyilmaz/yii2-comment "dev-main"
+    composer require xedeer/yii2-watchlist "dev-main"
 
 Böylece tüm modüller kurulmuş olur.
 
