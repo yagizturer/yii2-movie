@@ -4,6 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 use yagiztr\movie\models\Movie;
 use yagiztr\movie\models\Genre;
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 /* @var $searchModel frontend\modules\movie\models\MovieSearch */
@@ -18,13 +19,17 @@ $this->params['breadcrumbs'][] = $this->title;
         column-width: 25rem;
         overflow: hidden;
     }
-    .genre-container{
+
+    .genre-container {
         display: flex;
         justify-content: center;
         font-size: 1.5em;
     }
 </style>
 <div class="movie-index">
+    <a href="<?php echo Url::toRoute(['/movie/movie/index']); ?>" style="font-size:2em; margin-right:2em;">Movies</a>
+    <a href="<?php echo Url::toRoute(['/watchlist/watchlist/index']); ?>" style="font-size:2em; margin-right:2em;">My Watchlists</a>
+    <a href="<?php echo Url::toRoute(['/comment/comment/index']); ?>" style="font-size:2em; margin-bottom: 2em;">My Comments</a>
 
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -33,14 +38,14 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
     <div class="genre-container" style="color:mediumblue">
         <label for="genres">Genre:</p>
-        <select name="genres" id="genres">
-            <option value="0">All</option>
-            <?php
-            foreach (Genre::find()->all() as $genre_row) {
-                echo "<option value=\"$genre_row->id\">$genre_row->name</option>";
-            }
-            ?>
-        </select>
+            <select name="genres" id="genres">
+                <option value="0">All</option>
+                <?php
+                foreach (Genre::find()->all() as $genre_row) {
+                    echo "<option value=\"$genre_row->id\">$genre_row->name</option>";
+                }
+                ?>
+            </select>
     </div>
 
     <?= GridView::widget([
