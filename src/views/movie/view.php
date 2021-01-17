@@ -1,6 +1,7 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use yii\helpers\Url;
 
 
 
@@ -23,7 +24,9 @@ $this->params['breadcrumbs'][] = $this->title;
     }
 </style>
 <div class="movie-view">
-
+<a href="<?php echo Url::toRoute(['/movie/movie/index']); ?>" style="font-size:2em; margin-right:2em;">Movies</a>
+    <a href="<?php echo Url::toRoute(['/watchlist/watchlist/index']); ?>" style="font-size:2em; margin-right:2em;">My Watchlists</a>
+    <a href="<?php echo Url::toRoute(['/comment/comment/index']); ?>" style="font-size:2em; margin-bottom: 2em;">My Comments</a>
     <h1><?= Html::encode($this->title) ?></h1>
     <div class="movie-container">
         <div class="poster-container">
