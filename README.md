@@ -73,6 +73,11 @@ Bundan sonra modüller uygulamaya tanıtılmış olur.
 
 -----------------
 
+### Veritabanı Bağlantıları
+![Database](https://github.com/yagizturer/yii2-movie/blob/main/src/images/database.png)
+
+-----------------
+
 ### Film Modülü
 Eğer ki proje URL biçimlendirilmesinde bir düzenleme yapılmadıysa http://alanadi/frontend/web/index.php?r=movie adresine giderek film listesi görüntülenebilir. Burada kategoriye göre film listeleme, isme veya yapın yılına göre film arama gibi özellikler bulunmaktadır. Bu açılan sayfadan yeni bir film girdisi oluşturulabileceği gibi her satırın sonunda bulunan işarete tıklanarak filmin sayfasına gidilebilir. Film sayfasında filmin konusu, yapım yılı, ismi, posteri gibi bilgiler görüntülenebileceği gibi, diğer iki modül de kurulduysa film listesi ve yorum özellikleri de kontrol edilebilir. Eğer ki bu iki modülden biri kurulmadıysa, ilgili alanda durumu açıklayan bir uyarı görünmektedir. Ayrıca filmler düzenlenebilir ve kategori gibi bilgileri yeniden belirlenebilir.
 
